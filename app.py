@@ -7,9 +7,8 @@ st.title("Axiom-Zero: Sovereign Neural Engine")
 st.subheader("Algorithmic Macro-Governance Dashboard")
 
 st.write("Welcome to the foundational neural architecture for future-ready states.")
+data = pd.read_csv('data.csv')
 
-data = pd.DataFramedata = pd.read_csv('data.csv')
-, columns=['Urban Resilience', 'Economic KPI', 'Infrastructure Score'])
 # --- إضافة خوارزمية التنبؤ ---
 from sklearn.linear_model import LinearRegression
 
