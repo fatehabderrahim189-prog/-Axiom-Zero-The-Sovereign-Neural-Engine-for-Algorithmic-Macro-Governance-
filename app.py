@@ -1,6 +1,11 @@
+
 import streamlit as st
 import pandas as pd
 import numpy as np
+from sklearn.linear_model import LinearRegression
+
+# إعداد الصفحة
+st.set_page_config(page_title="Axiom-Zero", layout="wide")
 
 st.set_page_config(page_title="Axiom-Zero", layout="wide")
 st.title("Axiom-Zero: Sovereign Neural Engine")
