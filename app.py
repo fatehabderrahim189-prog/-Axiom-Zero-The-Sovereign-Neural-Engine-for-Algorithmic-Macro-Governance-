@@ -8,7 +8,8 @@ st.subheader("Algorithmic Macro-Governance Dashboard")
 
 st.write("Welcome to the foundational neural architecture for future-ready states.")
 
-data = pd.DataFrame(np.random.randn(20, 3), columns=['Urban Resilience', 'Economic KPI', 'Infrastructure Score'])
+data = pd.DataFramedata = pd.read_csv('data.csv')
+, columns=['Urban Resilience', 'Economic KPI', 'Infrastructure Score'])
 # --- إضافة خوارزمية التنبؤ ---
 from sklearn.linear_model import LinearRegression
 
